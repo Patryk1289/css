@@ -1,0 +1,37 @@
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style2.css" />
+<meta charset="utf-8">
+</head>
+<body>
+<table>
+<tr>
+<th colspan=2> Cechy modyfikowania formatowania w: </th>
+</tr>
+<tr>
+<td> w HTML </td>
+<td> w CSS </td>
+</tr>
+<tr>
+<td>modyfikacja wyglądu elementów strony jest bardzo żmudna (atrybuty i znaczniki które za to odpowiadają, są porozrzucane w różnych miejscach kodu, mieszając się ze strukturą dokumentu). </td>
+<td>rozdzielenie struktury i prezentacji dokumentów czyli: wszystkie polecenia dotyczące formatowania można umieścić w jednym miejscu (tzw. arkuszu) i powiązać je z konkretnymi elementami, wstawionymi za pomocą czystego (X)HTML. Taki sposób sprawia, że modyfikacja wyglądu stron może przebiegać dużo sprawniej. </td>
+</tr>
+</table>
+<p></p>
+Nowe możliwości CSS:
+<ol class="normal"br><li>Przestarzałe atrybuty i znaczniki, znajdujące się bezpośrednio w składni HTML, które dotyczą formatowania (elementy zdeprecjonowane), będą stopniowo wycofywane przez producentów przeglądarek internetowych, na rzecz rekomendowanych analogicznych deklaracji CSS.</li>
+<li>Dokumenty pisane z wykorzystaniem arkuszy stylów są zwykle bardziej przejrzyste i krótsze.
+<li>Style pozwalają w łatwy sposób zarządzać całą serią dokumentów, poprzez stosowanie zewnętrznych arkuszy stylów.
+ <li>Dzięki możliwości stosowania klas selektorów, znacznie oszczędzamy sobie pisania. W jednym miejscu określamy wszystkie atrybuty formatowania (których może być bardzo dużo), odnoszące się do wielu elementów, które mają wyglądać tak samo. Bezpośrednio przy elemencie wystarczy podać tylko nazwę klasy i nie musimy już wypisywać dużej ilości poleceń. Znacznie przyspiesza to późniejszą modyfikację strony, ponieważ zmian dokonujemy tylko w jednym miejscu, a wpływają one na wiele elementów jednocześnie.
+<br><li>Możliwość stosowania różnorodnych jednostek oraz sposobów definiowania kolorów.</br>
+<li>Różne wartości pogrubienia czcionki (9 rodzajów)
+<br><li>Dodatkowe możliwości formatowania tekstu</br>
+Efektowne filtry graficzne.
+<br><li>Dodatkowe możliwości określenia wyglądu dokumentów podczas ich drukowania.</br></ol>
+<p></p>
+Wady CSS:
+<ol class="normal2">
+<br> <li>złożona specyfikacja (składnia) nietolerująca, rzadnych błędów składniowych,</br>
+ <li>brak sygnalizacji błędów podczas wykonywania styli CSS oraz podczas ich realizacji,
+<br> <li>błędne obsługiwanie CSS przez różne przeglądarki,</br>
+</ol>

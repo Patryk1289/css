@@ -1,0 +1,14 @@
+table, td, th
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.normal
+{
+	list-style-type: decimal;
+}
+.normal2
+{
+	list-style-type: decimal;
+}
+	
