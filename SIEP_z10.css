@@ -1,0 +1,14 @@
+h1{
+	list-style-type: deciaml;
+}
+.q{
+font-family: Arial;
+font-weight: bold;
+font-style: italic;
+color: #008080;
+}
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
