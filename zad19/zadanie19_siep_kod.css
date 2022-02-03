@@ -1,0 +1,20 @@
+p{
+	color:red;
+	font-size:40mm;
+}
+span{
+	color:green;
+	font-size:25mm;
+}
+div{
+	background-color:silver;
+}
+span#aa {
+	color:rgb(128, 0, 255);
+}
+span#aaa {
+	color:rgb(255, 0, 255);
+}
+span#aaaa {
+	color:rgb(0, 255, 255);
+}
