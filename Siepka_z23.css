@@ -1,0 +1,32 @@
+p#pogrubienie_Siepka{
+  font-size:31px;
+  color:#985DD3
+}
+p#p
+ochylona_Siepka{
+    font-size:36pt;
+  color:#FCC16F;
+}
+
+p#index_gorny_Siepka{
+    font-size:1.1cm;
+   color:#AC8F1F;
+}
+
+p#index_dolny_Siepka {
+    font-size:1.7cm;
+   color:#48F3E7;
+}
+
+p#mono_Siepka{
+    font-size:41px;
+   color:#2CDF6F;
+}
+
+p#powiekszenie_Siepka{
+     color:#663FA1;
+}
+
+p#pomniejszenie_Siepka{
+    color:rgb(79%,64%,24%);
+}
