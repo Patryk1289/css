@@ -62,7 +62,16 @@ span#z6_Siepka{
 	color:#778899;
 	font-weight:800	;
 }
-span#zd2, span#zd3,span#zd5,span#zd6{
+span#zd2{
+	all: none !important;
+}
+span#zd3{
+	all: none !important;
+}
+span#zd5{
+	all: none !important;
+}
+span#zd6{
 	all: none !important;
 }
 
