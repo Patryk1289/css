@@ -1,0 +1,65 @@
+p#akapit1_Siepka{
+text-align:right;
+font-family:serif;
+color:#48D1CC;
+text-indent:3cm;
+letter-spacing:3ex;
+word-spacing:9 px;
+line-height:1.2cm;
+}
+
+span#z1_Siepka{
+text-decoration:overline;
+font-size:xx-small;
+font-style:italic;
+text-transform:uppercase;
+color:#40E0D0;
+font-variant:small-caps;
+font-weight:400;
+}
+
+span#z2_Siepka{
+	font-size:medium;
+	color:#ADD8E6;
+	font-weight:600;
+}
+
+span#z3_Siepka{
+	font-size:xx-large;
+	color:#000080;
+	font-weight:800;
+}
+
+p#akapit2_Siepka{
+text-align:center;
+font-family:sans-serif;
+color:#D3D3D3;
+text-indent:15mm;
+line-height:18mm;
+word-spacing:13pt;
+letter-spacing:0.3cm;
+color:#DCDCDC;
+}
+
+span#z4_Siepka{
+	text-decoration:line-through;
+	font-style:oblique;
+	font-size:1px;
+	color:#808080;
+	font-variant:small-caps;
+	font-weight:300;
+}
+
+span#z5_Siepka{
+	font-size:2in;
+	text-transform:capitalize;	
+	color:#708090;
+	font-weight:600;
+}
+
+span#z6_Siepka{
+	font-size:5em;
+	color:#778899;
+	font-weight:800	;
+}
+
