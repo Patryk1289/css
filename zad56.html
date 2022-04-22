@@ -58,7 +58,7 @@ Ma zastosowanie jeśli chcemy do pojedynczego elementu przypisać kilka różnyc
         </td>
     </tr>
 </table>
-<li><h1>Czym są podzbiory klas. Składnia teoretyczna listy klasy  </h1></li> 
+<h1><li>Czym są podzbiory klas. Składnia teoretyczna listy klasy  </h1></li> 
 Istnieje możliwość określenia tzw. podzbioru klas, czyli podania, jakie klasy musi mieć jednocześnie przypisane element, aby wybrana reguła CSS miała do niego zastosowanie.
 <table>
 <tr>
@@ -69,9 +69,9 @@ selektor.klasa1.klasa3 { cecha: wartość }
 </table>
 <h1><li> Co jest sygnałem (przesłanką), że należy zastosować klasy?</h1></li> 
 Jeśli jakiś element, o specyficznym rodzaju formatowania, wstępuje przynajmniej raz na niektórych stronach Twojego serwisu (może to być np. główny tytuł strony), jest to znak, że dobrze byłoby umieścić w zewnętrznym arkuszu stylów deklarację jego klasy. Dzięki temu, jeśli później zdecydujemy się zmienić jego formatowanie, nie będziemy musieli modyfikować każdej ze stron, a jedynie zewnętrzny arkusz.
-<li><h1>Kiedy i z jakiego powodu powinny być planowane klasy dla wykonywanej strony? </h1></li> 
+<h1><li>Kiedy i z jakiego powodu powinny być planowane klasy dla wykonywanej strony? </h1></li> 
 Już na początkowym etapie projektowania serwisu, dobrze jest dokładnie obmyślić, jakie klasy mogą okazać się użyteczne. Im więcej deklaracji klas - odnoszących się do powtarzalnych elementów - umieścisz w zewnętrznym arkuszu stylów, tym szybciej przebiegnie późniejsza ewentualna modyfikacja stron!
-<li><h1>Jaki jest cel stosowania komentarzy podczas definiowania klas? </h1></li> 
+<h1><li>Jaki jest cel stosowania komentarzy podczas definiowania klas? </h1></li> 
 Dobrym pomysłem jest również wstawianie komentarza przed każdą deklaracją klasy w arkuszu (znaki: /* ... */), w którym opisuje się jej przeznaczenie. Po jakimś czasie w Twoim arkuszu stylów może znaleźć się tyle klas, że zapomnisz, do jakich elementów się one odnosiły. Wtedy właśnie bardzo przydatny może się okazać wpisany wcześniej komentarz.
 <h1><li> Podaj konkretny przykład definiowania klasy oraz jej użycia(wywołanie).</h1></li> 
 Przykład definiowania i wywołania klasy:
@@ -83,7 +83,7 @@ p.przyklad_klasa { color: red }
 wywołanie
 <br>
 <&nbsp;p class="przyklad_klasa">To jest akapit.</&nbsp;p>
-<li><h1> Omów klasa donosząca się tylko do jednego selektora wraz z przykładem</h1></li> 
+<h1><li> Omów klasa donosząca się tylko do jednego selektora wraz z przykładem</h1></li> 
 Podobnie jak w przypadku identyfikatora, tak zdefiniowana klasa może zostać użyta tylko w tym selektorze, do którego została przypisana, np.:
 <br>
 definicja arkusza styli
@@ -103,7 +103,7 @@ wywołanie
 Powinna zostać wywołana w znaczniku <&nbsp;p></&nbsp;p> w następujący sposób:
 <br>
 <&nbsp;p class=”moja”>Treść akapitu</&nbsp;p>
-<li><h1> Jaki jest cel stosowania klasy uniwersalnej. Jakie jest znaczenie znaku „*” oraz kiedy można nie stosować tego znaku. Podaj przykład (definicja, wywołanie).</h1></li> 
+<h1><li> Jaki jest cel stosowania klasy uniwersalnej. Jakie jest znaczenie znaku „*” oraz kiedy można nie stosować tego znaku. Podaj przykład (definicja, wywołanie).</h1></li> 
 W przypadku stosowanie klas, często podczas ich definiowania, nie wiemy jeszcze, w stosunku do jakich znaczników będziemy chcieli je później użyć. Wtedy przydatny okazuje się selektor uniwersalny, który pozwala przypisać własności klasy do wszystkich elementów, którym zostanie ona nadana, bez względu na typ znacznika czyli użycie jest możliwe w różnych znacznikach.
 <br>
 *.przyklad_uniwersalna { color: red }
