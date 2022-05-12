@@ -1,0 +1,28 @@
+p::first-letter{
+    color:yellow;
+    font-size:121pt;
+}
+p#a{
+    font-size:21pt;
+    color:silver;
+}
+p#aa{
+    font-size:19pt;
+    color:silver;
+}
+h1::first-letter{
+color:silver;
+font-size:45px;
+}
+h1{
+color:navy;
+font-size:40px;
+}
+p#aaa::first-line{
+    color:red;
+    font-size:45px;
+}
+p#aaa{
+    color:navy;
+    font-size:40px;
+}
