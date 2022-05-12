@@ -12,11 +12,11 @@ p#2{
 }
 h1::first-letter{
 color:silver;
-font-size:15px;
+font-size:45px;
 }
 h1{
 color:navy;
-font-size:10px;
+font-size:40px;
 }
 p#3::first-line{
     color:red;
