@@ -2,12 +2,13 @@ p::first-letter{
     color:yellow;
     font-size:121pt;
 }
-p{
+p#1{
     font-size:21pt;
     color:silver;
 }
 p#2{
     font-size:19pt;
+    color:silver;
 }
 h1::first-letter{
 color:silver;
