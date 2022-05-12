@@ -1,0 +1,27 @@
+p::first-letter{
+    color:yellow;
+    font-size:121pt;
+}
+p{
+    font-size:21pt;
+    color:silver;
+}
+p#2{
+    font-size:19pt;
+}
+h1::first-letter{
+color:silver;
+font-size:15px;
+}
+h1{
+color:navy;
+font-size:10px;
+}
+p#3::first-line{
+    color:red;
+    font-size:15px;
+}
+p#3{
+    color:navy;
+    font-size:10px;
+}
